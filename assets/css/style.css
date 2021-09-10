@@ -1,0 +1,71 @@
+    body {
+        font-family: 'Cabin', sans-serif;
+        font-weight: 400;
+        color: #373A3C;
+    }
+    
+    .font {
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        font-size: 3em;
+    }
+    
+    .imagenPrincipal {
+        width: 100%;
+    }
+    
+    .btn-style {
+        width: 46%;
+        margin-left: 10px;
+    }
+    
+    .bor {
+        border-top: 1px solid;
+    }
+    
+    .carousel-indicators [data-bs-target] {
+        width: 9px;
+        height: 9px;
+        border-radius: 100%;
+    }
+    
+    .espacio {
+        width: 50%;
+    }
+    
+    p {
+        line-height: 2;
+    }
+    
+    .linea {
+        border-bottom: 1px solid #000000;
+    }
+    
+    .color {
+        background-color: #DC3545;
+        width: 100%;
+        padding: 40px;
+        color: white;
+    }
+    
+    .botonFooter {
+        margin: auto;
+    }
+    
+    footer {
+        background-color: #373A3C;
+        color: white;
+    }
+    
+    .pfooter {
+        margin: 0;
+    }
+    
+    .margenH3 {
+        margin-top: 50px;
+    }
+    
+    .fontspan {
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+    }

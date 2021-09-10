@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Ernesto Diaz" content="Pagina de comidas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricomida</title>
+    <!--link google font (cabin de 400 y 700)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <!--link google font (lobster regular)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--link css boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--link de mi css-->
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand font" href="#">Ricomida</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Recetas
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">PANQUEQUES CON MANJAR Y CREMA</a></li>
+                            <li><a class="dropdown-item" href="#">TIRAMISÚ</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">PLATEADA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-12 col-lg-6  col-sm-12">
+                <img class="imagenPrincipal" src="assets/img/principal.jpg" alt="">
+            </div>
+            <div class="col-12 col-lg-6  col-sm-12">
+
+                <div class="container my-lg-5 my-sm-2">
+                    <div>
+                        <p class="display-3 text-lg-start text-center my-3">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</p>
+
+                        <p class="fs-5 text-sm-start bor">110 MIN / 6 A 8 PORCIONES</p>
+                    </div>
+
+                    <div class=" my-lg-5  row">
+                        <button type="button" class="btn  btn-outline-dark btn-sm btn-style ">Enviar por correo</button>
+                        <button type="button" class="btn  btn-outline-dark btn-sm btn-style btn-styleDos">Añadir a favoritos</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="d-none d-sm-block mt-5">
+            <div id="carouselExampleControls" class="carousel carousel-dark slide border-bottom border-1 border-secondary mt-3 pb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-3"><img class="d-block w-100" src="./assets/img/slider-1.png" alt="imagen 1"></div>
+                            <div class="col-3"><img class="d-block w-100" src="./assets/img/slider-2.png" alt="imagen 2"></div>
+                            <div class="col-3"><img class="d-block w-100" src="./assets/img/slider-3.png" alt="imagen 3"></div>
+                            <div class="col-3"><img class="d-block w-100" src="./assets/img/slider-4.png" alt="imagen 4"></div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3"><img class="d-block w-100" src="./assets/img/slider-5.png" alt="imagen 5"></div>
+                            <div class="col-3"><img class="d-block w-100" src="./assets/img/slider-6.png" alt="imagen 6"></div>
+                            <div class="col-3"><img class="d-block w-100" src="./assets/img/slider-7.png" alt="imagen 7"></div>
+                            <div class="col-3"><img class="d-block w-100" src="./assets/img/slider-8.png" alt="imagen 8"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row linea">
+            <div class="col-12 col-lg-6 col-sm-12 my-5">
+                <h3><ins>INGREDIENTES</ins> </h3>
+                <p class="mt-3">Masa</p>
+                <p class="mt-2 espacio">
+                    20 gr de levadura seca instantánea 1 cucharadita de azúcar 500 ml agua tibia 100 ml aceite vegetal 4 cucharadas de aceite de oliva 65 gr harina de maíz fina (chuchoca) 2 cucharaditas de sal 625 gr harina Salsa
+                </p>
+
+                <p class="mt-2 espacio">
+                    5 cucharadas de aceite de oliva ½ cebolla picada en cubos finos 2 cucharaditas de sal 3 cucharadas de Orégano Gourmet 1 ½ cucharadas de Albahaca Gourmet 2 tarro de tomates en cubos al natural 2 cucharaditas de azúcar Relleno
+                </p>
+
+                <p class="mt-2 espacio">
+                    ½ cebolla, en cubos 500 gr hojas de espinacas picadas 400 gr de champiñones, laminados 300 gr de queso mozarella 4 cucharadas queso parmesano
+                </p>
+            </div>
+            <div class="col-12 col-lg-6 col-sm-12 my-5">
+                <H3><ins>PREPARACIÓN</ins>
+                </H3>
+
+                <p class="mt-5">
+                    1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener
+                    una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un
+                    paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.
+                </p>
+
+                <p>
+                    2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los
+                    tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.
+                </p>
+
+                <p>
+                    3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar.
+                </p>
+
+                <p>
+                    4. Calentar el horno a 220C.
+                </p>
+
+                <p>
+                    5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con
+                    la salsa de tomates y finalmente espolvorear el queso rallado. 6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.
+                </p>
+            </div>
+        </div>
+
+
+        <section class="my-5">
+            <h3 class="text-center display-6  my-4">Recetas relacionadas</h3>
+            <div class="row">
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card my-2">
+                        <img src="/assets/img/recipe-card-1.png" class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">PANQUEQUES CON MANJAR Y CREMA</h5>
+                            <p class="card-text ">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card my-2">
+                        <img src="/assets/img/recipe-card-2.png " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">TIRAMISÚ</h5>
+                            <p class="card-text ">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card my-2">
+                        <img src="/assets/img/recipe-card-3.png " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">PLATEADA</h5>
+                            <p class="card-text ">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+    <seccion class=" text-center ">
+        <div class="color">
+            <h3 class="display-5 margenH3 ">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
+            <P class="fs-3">y obtén las mejores recetas que tenemos en <span class="fontspan ">ricomida</span> </P>
+            <p></p>
+            <button class="btn btn-outline-light btn-lg botonFooter my-5" type="submit">Empezar</button>
+        </div>
+    </seccion>
+
+    <footer>
+        <P class="font text-center pfooter">Ricomida</P>
+    </footer>
+
+
+
+
+
+
+    <!--links del js de boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js " integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js " integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/ " crossorigin="anonymous "></script>
+
+    <!--link jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>
+
+</html>
